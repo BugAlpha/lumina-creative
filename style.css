@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+.logo img {
+  width: 150px;
+}
+.nav-links ul {
+  display: flex;
+  gap: 50px;
+}
+.nav-links ul li a {
+  color: black;
+  padding: 20px;
+  font-weight: 400;
+}
+.nav-links ul li a:hover {
+  background-color: #f8f2e3;
+  border-radius: 5px;
+}
+.hero {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 200;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+pre {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+span {
+  background-color: #f8f2e3;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.images img {
+  width: 400px;
+  border-radius: 7px;
+}
+.line {
+  width: 99vw;
+  height: 1px;
+  background-color: black;
+  margin: 10px;
+  margin-top: 40px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+}
+.footer img {
+  width: 150px;
+  height: 50px;
+}
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.us {
+  font-weight: bold;
+}
+.web .social {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.web .follow {
+  font-size: medium;
+  font-weight: bold;
+}
+
+section {
+  background-color: #333333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.service {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: medium;
+}
+.our {
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: 500;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.team-members img {
+  width: 450px;
+  border-radius: 7px;
+}
+.name {
+  font-weight: bold;
+}
+.team-members div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.hero-contact {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  background-color: #333333;
+  height: 70vh;
+  text-align: unset;
+  justify-content: center;
+  font-size: 30px;
+}
+.hero-contact span {
+  color: #333333;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.contact-form p {
+  margin: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  gap: 15px;
+}
+form input,
+button,
+textarea {
+  width: 70vw;
+  padding: 20px;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+}
+form input,
+textarea {
+  border: 0;
+  border-bottom: 1px solid #333333;
+}
+.contact-us {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+textarea {
+  height: 200px;
+}
+button {
+  border-radius: 0;
+  border: 0;
+}
+button:hover {
+  background-color: #333333;
+  color: white;
+}
+@media (max-width: 768px) {
+  .nav-links ul {
+    gap: 5px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .hero {
+    font-size: large;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .contact ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 90px;
+  }
+  section {
+    height: 600px;
+  }
+  .our {
+    font-size: xx-large;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+  .team-members {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .team-members img {
+    width: 350px;
+  }
+  .hero-contact {
+    font-size: 19px;
+    margin-left: -30px;
+  }
+}
