@@ -263,4 +263,21 @@ button:hover {
     font-size: 19px;
     margin-left: -30px;
   }
+  .index-pre {
+    margin-left: -40px;
+  }
+  .images {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .about-pre {
+    margin-left: -40px;
+  }
+  .service h5,
+  p {
+    padding-left: 20px;
+  }
+  .contact-pre {
+    margin-left: -15px;
+  }
 }
